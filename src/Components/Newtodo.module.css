@@ -1,0 +1,60 @@
+.form{
+    width: 80%;
+    background-color: #080808f3;
+    color:white;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+margin-bottom: 0.5rem;
+
+}
+.form-field{
+    margin: 1rem 0;
+    display: flex;
+}
+.form-field label{
+    flex-basis: 20%;
+}
+.form-field input{
+    flex-basis: 80%;
+    padding: 0.2rem;
+    border-radius: 0.6rem;
+    border: none;
+
+    color: white;
+}
+.form-field input:focus{
+    outline: none;
+    background-color: #444;
+}
+.form-field input::placeholder{
+    color: white;
+}
+.form-field textarea{
+    flex-basis: 80%;
+   resize: none;
+    padding: 0.2rem;
+    border-radius: 0.6rem;
+    border: none;
+   
+}
+.form-field textarea:focus{
+    outline: none;
+    background-color: #444;
+}
+.form-field textarea::placeholder{
+    color: white;
+}
+.form button{
+   
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+.form button:hover{
+    background-color: #e4ba2ef7;
+    color: white;
+}
